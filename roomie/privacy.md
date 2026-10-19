@@ -17,8 +17,9 @@ Roomie is a shared-home app for groceries, recipes, home info and shared expense
 |---|---|
 | Email address | Sign-in (one-time code) and account contact |
 | Apple ID identifier, and the email Apple shares (possibly a private relay address) | Sign in with Apple |
-| Name, surname, phone number, date of birth, profile photo | Your profile, shown to the people in your room |
-| Groceries, recipes, home info, expenses and your share of them | The app's core features, shared with your room or kept private if you choose |
+| Name, surname, phone number (optional), profile photo | Your profile, shown to the people in your room |
+| Groceries, recipes, expenses and your share of them | The app's core features, shared with your room or kept private if you choose |
+| Home info: address, wifi details and emergency contacts you add | Shared with your room so everyone has it to hand |
 | Photos you attach (profile, recipes, home info) | Shown in the app to you and your room |
 | Push notification token | Notifying you about new groceries and shared expenses (you can turn this off in Profile) |
 | Server logs (request path, time and error details) | Finding and fixing bugs |
@@ -30,7 +31,7 @@ We don't sell your data, show ads or use third-party analytics or tracking. We d
 | Processor | Purpose | Location |
 |---|---|---|
 | Supabase | Database and sign-in | EU (Ireland) |
-| BunnyCDN | Photo storage and delivery | EU storage, global CDN |
+| BunnyCDN | Photo storage and delivery | EU (Germany) storage, global CDN |
 | Railway | Hosting our API server and its logs | EU (Amsterdam) |
 | Apple | Sign in with Apple, iOS push notifications | Global |
 | Google (Firebase Cloud Messaging) | Android push notifications | Global |
@@ -52,7 +53,7 @@ You can delete your account from **Profile → Delete account**. Deletion is imm
 
 What is deleted:
 
-- Your profile: name, surname, email, phone, date of birth and photo.
+- Your profile: name, surname, email, phone and photo.
 - Your sign-in, so signing in again with the same email starts a new account.
 - Your private grocery and expense lists, and everything in them.
 - Your share of every expense, and the "who it's for" tags on grocery items.
@@ -68,7 +69,7 @@ Data on your phone is wiped when the deletion succeeds. If you can't access the 
 
 ## Your rights
 
-You can access, correct, export or delete your data, object to or restrict its processing, and withdraw consent at any time. To do any of these, email [ktsirakos@hotmail.com](mailto:ktsirakos@hotmail.com). You can also complain to your local data protection authority.
+You can access, correct, export or delete your data, object to or restrict its processing, and withdraw consent at any time. To do any of these, email [ktsirakos@hotmail.com](mailto:ktsirakos@hotmail.com). You can correct your profile in the app at any time. For a copy of your data, email us from the address on your account and we will send you a machine-readable (JSON) export within 30 days. You can also complain to your local data protection authority.
 
 ## Children
 
