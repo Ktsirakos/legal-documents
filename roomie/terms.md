@@ -9,7 +9,7 @@ _Last updated: 19 October 2026_
 By creating an account or using Roomie, you agree to these terms. If you don't agree, don't use the app.
 
 **Provider:** Konstantinos Tsirakos
-**Contact:** [CONTACT EMAIL]
+**Contact:** [ktsirakos@hotmail.com](mailto:ktsirakos@hotmail.com)
 
 ## The service
 
@@ -55,4 +55,4 @@ If we change these terms, we'll update the date above. If the changes are signif
 
 ## Governing law
 
-These terms are governed by the laws of [COUNTRY], without prejudice to mandatory consumer protection rules in your country of residence.
+These terms are governed by the laws of Greece, without prejudice to mandatory consumer protection rules in your country of residence.

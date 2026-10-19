@@ -9,7 +9,7 @@ _Last updated: 19 October 2026_
 Roomie is a shared-home app for groceries, recipes, home info and shared expenses. This policy explains what we collect, why, who processes it and how to delete it.
 
 **Controller:** Konstantinos Tsirakos
-**Contact:** [CONTACT EMAIL]
+**Contact:** [ktsirakos@hotmail.com](mailto:ktsirakos@hotmail.com)
 
 ## What we collect
 
@@ -21,7 +21,7 @@ Roomie is a shared-home app for groceries, recipes, home info and shared expense
 | Groceries, recipes, home info, expenses and your share of them | The app's core features, shared with your room or kept private if you choose |
 | Photos you attach (profile, recipes, home info) | Shown in the app to you and your room |
 | Push notification token | Notifying you about new groceries and shared expenses (you can turn this off in Profile) |
-| Crash and error reports | Finding and fixing bugs |
+| Server logs (request path, time and error details) | Finding and fixing bugs |
 
 We don't sell your data, show ads or use third-party analytics or tracking. We don't use your data to track you across other apps or websites.
 
@@ -29,19 +29,18 @@ We don't sell your data, show ads or use third-party analytics or tracking. We d
 
 | Processor | Purpose | Location |
 |---|---|---|
-| Supabase | Database and sign-in | EU |
+| Supabase | Database and sign-in | EU (Ireland) |
 | BunnyCDN | Photo storage and delivery | EU storage, global CDN |
-| Railway | Hosting our API server | [REGION] |
+| Railway | Hosting our API server and its logs | EU (Amsterdam) |
 | Apple | Sign in with Apple, iOS push notifications | Global |
 | Google (Firebase Cloud Messaging) | Android push notifications | Global |
 | Expo | Sending push notifications | US |
-| Sentry | Crash and error reports | [REGION] |
 
 Your account data and content are stored in the European Union. Push notifications and CDN delivery may pass through servers outside the EU, under the providers' standard contractual clauses.
 
 ## Legal basis (GDPR)
 
-We process your data to provide the service you signed up for (contract). We process crash reports under our legitimate interest in keeping the app working. We send push notifications with your consent, which you can withdraw at any time.
+We process your data to provide the service you signed up for (contract). We keep server logs under our legitimate interest in keeping the app working. We send push notifications with your consent, which you can withdraw at any time.
 
 ## Retention
 
@@ -69,7 +68,7 @@ Data on your phone is wiped when the deletion succeeds. If you can't access the 
 
 ## Your rights
 
-You can access, correct, export or delete your data, object to or restrict its processing, and withdraw consent at any time. To do any of these, email [CONTACT EMAIL]. You can also complain to your local data protection authority.
+You can access, correct, export or delete your data, object to or restrict its processing, and withdraw consent at any time. To do any of these, email [ktsirakos@hotmail.com](mailto:ktsirakos@hotmail.com). You can also complain to your local data protection authority.
 
 ## Children
 
